@@ -3,9 +3,15 @@
 function renderLicenseBadge(license) {
     if (!license) {
       return ``;
-    } else {
+    } else if (license === 'MIT') {
      return `[![${license} License](https://img.shields.io/badge/License-${license}-yellow.svg)](${renderLicenseLink(license)})`;
-  }
+  } else if (license === 'APACHE') {
+    return `[![${license} License](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`;
+ } else if (license === 'BOOST') {
+    return `[![${license} License](https://img.shields.io/badge/License-${license}-lightblue.svg)](${renderLicenseLink(license)})`;
+ } else if (license === 'BSD') {
+    return `[![${license} License](https://img.shields.io/badge/License-${license}--Clause-orange.svg)](${renderLicenseLink(license)})`;
+ } 
 }
   
 // TODO: Create a function that returns the license link
@@ -21,7 +27,7 @@ function renderLicenseLink(license) {
       return `https://www.boost.org/LICENSE_1_0.txt`;
     }
     else if (license === 'BSD') {
-        return `https://opensource.org/licenses/BSD-3-Clause`;
+        return `https://opensource.org/licenses/BSD-2-Clause`;
       }
   }
 

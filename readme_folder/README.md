@@ -1,5 +1,5 @@
 # ge
-  [![ License](https://img.shields.io/badge/License--yellow.svg)](undefined)
+  [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://www.mit.edu/~amini/LICENSE.md)
 
   ## Table of Contents
   - [Description](#description)
@@ -21,11 +21,11 @@
   ge
 
   ## Tests
-  ge
+  eg
 
   ## License
   
-      This project is covered under the  license. To learn more about what this means, click the license button at the top.
+      This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
 
   ## Credits
   ge

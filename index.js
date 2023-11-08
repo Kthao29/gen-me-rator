@@ -42,10 +42,9 @@ const questions = [
     },
 
     {
-        type: "checkbox",
+        type: "input",
         name: "license",
-        message: "Please select a license.",
-        choices: ['MIT', 'APACHE', 'BOOST', 'BSD'],
+        message: "Please select a license (MIT, APACHE, BOOST, BSD).",
     },
 
     {
