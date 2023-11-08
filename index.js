@@ -39,7 +39,7 @@ const questions = [
         type: "checkbox",
         name: "license",
         message: "Please select a license.",
-        choices: ["MIT", "Apache 2.0", "Boost Software License 1.0", "Modzilla Public License 2.0", "None"]
+        choices: ['MIT', 'APACHE', 'BOOST', 'BSD', 'NONE'],
     },
 
     {
@@ -64,7 +64,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        writeToFile('./readme_folder/README.md', generateMarkdown(data));
+        writeToFile('./readme_folder/README.md', data);
     });
 }
 
