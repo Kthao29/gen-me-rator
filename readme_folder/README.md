@@ -1,12 +1,15 @@
 # ge
-  [![BSD license](https://img.shields.io/badge/License-BSD-blue.svg)](undefined)
+  [![ License](https://img.shields.io/badge/License--yellow.svg)](undefined)
 
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
+  - [Usage](#usage)
+  - [Tests](#tests)
   - [License](#license)
   - [Credits](#credits)
-  - [Contribute](#contribute)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
   ## Description
   ge
@@ -17,11 +20,22 @@
   ## Usage
   ge
 
+  ## Tests
+  ge
+
+  ## License
+  
+      This project is covered under the  license. To learn more about what this means, click the license button at the top.
+
   ## Credits
   ge
 
-  ## Licenses
-      This project is covered under the BSD license. To learn more about what this means, click the license button at the top.
-
-  ## Contribute
+  ## Contributing
   ge
+
+  ## Questions
+  Have any questions? Please reach out to:
+
+  Github Account: ge
+
+  Email Address: ge

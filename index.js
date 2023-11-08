@@ -26,7 +26,13 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples for use.",
+        message: "Provide instructions and examples for usage.",
+    },
+
+    {
+        type: "input",
+        name: "tests",
+        message: "Describe tests and how to use them.",
     },
 
     {
@@ -39,13 +45,25 @@ const questions = [
         type: "checkbox",
         name: "license",
         message: "Please select a license.",
-        choices: ['MIT', 'APACHE', 'BOOST', 'BSD', 'NONE'],
+        choices: ['MIT', 'APACHE', 'BOOST', 'BSD'],
     },
 
     {
         type: "input",
         name: "contribute",
         message: "How to contribute.",
+    },
+
+    {
+        type: "input",
+        name: "github",
+        message: "Enter your Github account",
+    },
+
+    {
+        type: "input",
+        name: "email",
+        message: "Enter your email address.",
     },
 ];
 

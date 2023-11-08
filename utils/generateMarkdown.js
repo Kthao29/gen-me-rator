@@ -4,27 +4,26 @@ function renderLicenseBadge(license) {
     if (!license) {
       return ``;
     } else {
-     return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
-    }
+     return `[![${license} License](https://img.shields.io/badge/License-${license}-yellow.svg)](${renderLicenseLink(license)})`;
   }
+}
   
-
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     if (license === 'MIT') {
-      return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+      return `https://www.mit.edu/~amini/LICENSE.md`;
     }
     else if (license === 'APACHE') {
-      return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+      return `https://opensource.org/licenses/Apache-2.0`;
     }
     else if (license === 'BOOST') {
-      return `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)` 
+      return `https://www.boost.org/LICENSE_1_0.txt`;
     }
     else if (license === 'BSD') {
-        return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)` 
+        return `https://opensource.org/licenses/BSD-3-Clause`;
       }
-  };
+  }
 
 
 
@@ -34,7 +33,7 @@ function renderLicenseSection(license) {
     if (!license) {
       return ``;
     } else {
-      return `## Licenses
+      return `
       This project is covered under the ${license} license. To learn more about what this means, click the license button at the top.`
     }
   }
@@ -48,9 +47,12 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
+  - [Usage](#usage)
+  - [Tests](#tests)
   - [License](#license)
   - [Credits](#credits)
-  - [Contribute](#contribute)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
   ## Description
   ${data.description}
@@ -61,13 +63,24 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
+  ## Tests
+  ${data.tests}
+
+  ## License
+  ${renderLicenseSection(data.license)}
+
   ## Credits
   ${data.credits}
 
-  ${renderLicenseSection(data.license)}
-
-  ## Contribute
+  ## Contributing
   ${data.contribute}
+
+  ## Questions
+  Have any questions? Please reach out to:
+
+  Github Account: ${data.github}
+
+  Email Address: ${data.email}
 `;
 }
 
