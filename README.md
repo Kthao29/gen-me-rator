@@ -43,6 +43,12 @@ THEN I am taken to the corresponding section of the README
 
 ## Screenshots/Vid
 
+<video src="Assets/Module9.mov" controls title="Title"></video>
+
+![Alt text](Assets/Module9.png)
+
+![Alt text](Assets/README.png)
+
 ## Usage Instructions
 1. Open up integrated terminal to index.js
 2. Type in "node index.js"

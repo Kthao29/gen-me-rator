@@ -1,5 +1,5 @@
-# ge
-  [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://www.mit.edu/~amini/LICENSE.md)
+# readme
+  [![APACHE License](https://img.shields.io/badge/License-APACHE-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents
   - [Description](#description)
@@ -12,30 +12,30 @@
   - [Questions](#questions)
 
   ## Description
-  ge
+  easy way to generate readme
 
   ## Installation
-  ge
+  github
   
   ## Usage
-  ge
+  download zip
 
   ## Tests
-  eg
+  node index.js
 
   ## License
   
-      This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
+      This project is covered under the APACHE license. To learn more about what this means, click the license button at the top.
 
   ## Credits
-  ge
+  youtube
 
   ## Contributing
-  ge
+  my github
 
   ## Questions
   Have any questions? Please reach out to:
 
-  Github Account: ge
+  Github Account: kthao29
 
-  Email Address: ge
+  Email Address: kengthao57@gmail.com
