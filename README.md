@@ -43,7 +43,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Screenshots/Vid
 
-<video src="Assets/ReadmeVid.mp4" controls title="Title"></video>
+<video src="Assets/Vid.mp4" controls title="Title"></video>
 
 ![Alt text](Assets/Module9.png)
 
